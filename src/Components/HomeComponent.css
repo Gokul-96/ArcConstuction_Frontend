@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+/* home component */
+.home-image{ width: 1920px;
+  height: 1062px;
+  top: -5px;
+  background-color:rgba(0, 47, 112, 0.3)
+  
+}
+.home-text{
+    position: absolute;
+  top: 472px;
+  left: 120px;
+  width: 725px;
+  height: 240px;
+  font-weight: 700;
+  font-size: 88px;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  background: transparent;
+  margin: 0;
+}
+
+.arrow-icon{
+    position: absolute;
+width: 21px;
+height: 25px;
+top: 811px;
+left: 305.98px;
+transform: rotate(-45deg);
+
+color: rgba(0, 47, 112, 1);
+}
+
+.know-more-text{
+  font-family: 'Manrope';
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(51, 51, 51, 1);
+
+   position: absolute;
+}
+
+.know-more-button{
+  
+
+
+  width: 245px;
+  height: 70px;
+  border: 1px solid rgb(24, 51, 105);
+  border-bottom-right-radius: 16px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  cursor: pointer;
+}

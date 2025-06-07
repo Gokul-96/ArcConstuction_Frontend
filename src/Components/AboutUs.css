@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;700&display=swap');
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+  position: relative;
+  background-color: #fff;
+}
+
+.about-left {
+  width: 50%;
+}
+
+.about-title {
+    width: 131;
+height: 76;
+top: 1262px;
+left: 121px;
+
+font-family: Manrope;
+font-weight: 300;
+font-size: 32px;
+line-height: 76px;
+letter-spacing: 0%;
+vertical-align: middle;
+
+color: rgba(0, 47, 112, 1);
+
+}
+
+.about-heading {
+    width: 824;
+height: 152;
+top: 1378px;
+left: 121px;
+
+font-family: Manrope;
+font-weight: 700;
+font-size: 56px;
+line-height: 76px;
+letter-spacing: 0%;
+vertical-align: middle;
+
+colors: rgba(0, 47, 112, 1);
+
+
+
+
+}
+
+.about-description {
+width: 817;
+height: 200;
+top: 1554px;
+left: 121px;
+
+font-family: Manrope;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+letter-spacing: 0%;
+vertical-align: middle;
+
+colors: rgba(51, 51, 51, 1);
+
+
+}
+
+.about-knowmore-button {
+width: 245px;
+height: 70px;
+top: 1834px;
+left: 121px;
+border-bottom-right-radius: 16px;
+border-width: 1px;
+
+border: 1px solid rgba(0, 47, 112, 1);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+
+
+}
+
+.about-knowmore-text {
+  width: 144.41px;
+height: 32.82px;
+top: 1853px;
+left: 171px;
+
+color: rgba(51, 51, 51, 1);
+
+
+}
+
+.about-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-end;
+}
+
+.about-image1{
+width: 150px;
+height: 642px;
+top: 1222px;
+left: 1139px;
+
+
+}
+.about-image2{
+width: 150px;
+height: 642px;
+top: 1302px;
+left: 1309px;
+
+
+}
+.about-image3{
+width: 150px;
+height: 642px;
+top: 1222px;
+left: 1479px;
+border-width: 1px;
+border: 1px solid rgba(226, 226, 226, 1)
+
+}
+.about-image4{
+width: 150px;
+height: 642px;
+top: 1302px;
+left: 1649px;
+border-width: 1px;
+border: 1px solid rgba(226, 226, 226, 1)
+
+
+}
