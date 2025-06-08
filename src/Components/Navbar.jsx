@@ -10,7 +10,7 @@ const Navbar = () => {
         <a href="#story" className="nav-link">Our Story</a>
         <a href="#projects" className="nav-link">Projects</a>
         <div className="get-in-touch-border">
-             <a href="#get in touch" className="nav-link2">Get in touch</a>
+             <a href="#get-in-touch" className="nav-link2">Get in touch</a>
          
         </div>
       </div>

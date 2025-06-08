@@ -21,36 +21,53 @@
 }
 
 .arrow-icon{
-    position: absolute;
+     
 width: 21px;
 height: 25px;
 top: 811px;
 left: 305.98px;
-transform: rotate(-45deg);
+transform: rotate(10deg);
 
 color: rgba(0, 47, 112, 1);
 }
 
 .know-more-text{
-  font-family: 'Manrope';
-  font-weight: 600;
-  font-size: 20px;
-  color: rgba(51, 51, 51, 1);
+      
+  width: 106px;
+height: 27px;
+top: 814px;
+left: 169px;
+font-family: Manrope;
+font-weight: 600;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
 
-   position: absolute;
+
+color: rgba(0, 47, 112, 1);
+
+
+
 }
 
 .know-more-button{
-  
-
-
-  width: 245px;
-  height: 70px;
-  border: 1px solid rgb(24, 51, 105);
-  border-bottom-right-radius: 16px;
-  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+ position: absolute;
+ width: 236px;
+height: 70px;
+top: 792px;
+left: 127px;
   display: flex;
   align-items: center;
-  padding-left: 24px;
-  cursor: pointer;
+  justify-content: center;
+  gap: 10px;
+border-width: 1px;
+border-radius: 16px;
+
+background-color: rgba(255, 255, 255, 1);
+
+border: 1px solid rgba(255, 255, 255, 1)
+
+
 }
