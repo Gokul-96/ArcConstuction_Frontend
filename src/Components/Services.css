@@ -2,7 +2,7 @@
     width: 346px;
 height: 76px;
 top: 3078px;
-left: 120px;
+left: 20px;
 
 font-family: Manrope;
 font-weight: 700;
@@ -128,29 +128,38 @@ color: rgba(51, 51, 51, 1);
 .service-cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 32px; /* spacing between cards */
+  gap: 24px; 
   justify-content: center;
   padding: 40px 0;
 }
 
 .service-card {
- width: 400px;
+ flex: 1 1 calc(25% - 24px); /* 4 cards per row with gap */
+  max-width: 400px;
+  min-width: 280px;
 height: 295px;
 top: 3392px;
 left: 120px;
 border-width: 1px;
 border-bottom-right-radius: 40px;
 background: rgba(255, 255, 255, 1);
-border: 1px solid rgba(226, 226, 226, 1)
+border: 1px solid rgba(226, 226, 226, 1);
 
-
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+ padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
 }
 
 .service-image {
 width: 80px;
 height: 80px;
-top: 3460px;
-left: 280px;
+/* top: 3460px;
+left: 280px; */
+  margin-bottom: 16px;
 }
 
 .service-card-title {
