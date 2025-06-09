@@ -39,8 +39,9 @@ const ProjectCarousel = () => {
   return (
     <div className="carousel-container">
       <div className="carousel-wrapper">
-        <h1 className='project-title'>Completed Projects</h1>
-        <p className='project-Description'>At Arc Constructions, we take pride in our diverse portfolio of successfully completed projects. Each venture showcases our commitment to quality, innovation, and client satisfaction. Explore our past projects to witness the excellence we bring to every development.</p>
+        <h1 className='project-t'>Completed <span className='project-span'>Projects</span> </h1>
+        <p className='project-Description'><b>At Arc Constructions, we take pride in our diverse portfolio of successfully completed projects. Each venture showcases our commitment to quality, innovation, and client satisfaction. Explore our past projects to witness the excellence we bring to every development.
+          </b></p>
         <div
           className="carousel-track"
           style={{ transform: `translateX(-${index * (100 / 2.5)}%)` }}

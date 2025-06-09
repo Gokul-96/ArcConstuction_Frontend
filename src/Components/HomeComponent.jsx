@@ -13,7 +13,7 @@ return (
 
 {/* Text */}
      
-         <h1 className="home-text">A gateway to your future</h1>
+         <h1 className="home-text">A gateway to <br/> your future </h1>
 
       <div className="know-more-button" onClick={handleKnowMoreClick}>
         <span className="know-more-text">Know more</span>

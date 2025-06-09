@@ -12,9 +12,9 @@
   width: 50%;
 }
 
-.about-title {
-    width: 131;
-height: 76;
+.about-t {
+    width: 131px;
+height: 76px;
 top: 1262px;
 left: 121px;
 
@@ -29,9 +29,9 @@ color: rgba(0, 47, 112, 1);
 
 }
 
-.about-heading {
-    width: 824;
-height: 152;
+.about-head{
+    width: 824px;
+height: 152px;
 top: 1378px;
 left: 121px;
 
@@ -42,16 +42,16 @@ line-height: 76px;
 letter-spacing: 0%;
 vertical-align: middle;
 
-colors: rgba(0, 47, 112, 1);
+color: rgba(0, 47, 112, 1);
 
 
 
 
 }
 
-.about-description {
-width: 817;
-height: 200;
+.about-des{
+width: 817px;
+height: 200px;
 top: 1554px;
 left: 121px;
 
@@ -62,7 +62,7 @@ line-height: 40px;
 letter-spacing: 0%;
 vertical-align: middle;
 
-colors: rgba(51, 51, 51, 1);
+color: rgba(51, 51, 51, 1);
 
 
 }
@@ -75,6 +75,11 @@ left: 121px;
 border-bottom-right-radius: 16px;
 border-width: 1px;
 
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
 border: 1px solid rgba(0, 47, 112, 1);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 
@@ -82,25 +87,27 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 
 .about-knowmore-text {
-  width: 144.41px;
-height: 32.82px;
-top: 1853px;
-left: 171px;
+  width: 91px;
+height: 25px;
+top: 1856.91px;
+left: 230px;
+
+font-family: Manrope;
+font-weight: 300;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: capitalize;
 
 color: rgba(51, 51, 51, 1);
 
 
 }
 
-.about-right {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  align-items: flex-end;
-}
 
-.about-image1{
+
+.about-img1{
 width: 150px;
 height: 642px;
 top: 1222px;
@@ -108,7 +115,7 @@ left: 1139px;
 
 
 }
-.about-image2{
+.about-img2{
 width: 150px;
 height: 642px;
 top: 1302px;
@@ -116,7 +123,7 @@ left: 1309px;
 
 
 }
-.about-image3{
+.about-img3{
 width: 150px;
 height: 642px;
 top: 1222px;
@@ -125,7 +132,7 @@ border-width: 1px;
 border: 1px solid rgba(226, 226, 226, 1)
 
 }
-.about-image4{
+.about-img4{
 width: 150px;
 height: 642px;
 top: 1302px;
@@ -134,4 +141,4 @@ border-width: 1px;
 border: 1px solid rgba(226, 226, 226, 1)
 
 
-}
+} 

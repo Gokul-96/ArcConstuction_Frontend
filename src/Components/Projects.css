@@ -1,32 +1,43 @@
-.project-title{
-width: 542;
-height: 76;
+.project-t{
+ 
+width: 542px;
+height: 76px;
 top: 2154px;
 left: 121px;
-
 font-family: Manrope;
 font-weight: 700;
 font-size: 56px;
 line-height: 100%;
 letter-spacing: 0%;
 vertical-align: middle;
+ 
 
-font-family: Manrope;
-font-weight: 700;
-font-size: 56px;
-line-height: 100%;
-letter-spacing: 0%;
-vertical-align: middle;
 
 
 }
 
+.project-span{
+  width: 542px;
+height: 76px;
+top: 2154px;
+left: 121px;
+font-family: Manrope;
+font-weight: 700;
+font-size: 56px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+
+
+color: rgba(0, 47, 112, 1);
+}
+
 .project-Description{
-width: 1321;
-height: 120;
+width: 1321px;
+height: 120px;
 top: 2254px;
 left: 121px;
-border-width: 1px;
+/* border-width: 1px; */
 
 font-family: Manrope;
 font-weight: 400;
@@ -35,7 +46,7 @@ line-height: 40px;
 letter-spacing: 0%;
 
 color: rgba(51, 51, 51, 1);
-border: 1px solid rgba(0, 0, 0, 1);
+/* border: 1px solid rgba(0, 0, 0, 1); */
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
 }
