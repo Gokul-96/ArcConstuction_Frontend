@@ -10,15 +10,19 @@ import img6 from '../assets/Image3-project.jpg';
 import img7 from '../assets/Image1-project.jpg';
 import img8 from '../assets/Image2-project.jpg';
 
+import ArrowLeft from '../assets/projectLeftArror.png';
+import ArrowRight from '../assets/projectRightArror.png';
+
+
 const images = [
   { src: img1, title: "Myntra Warehouse on Soukya Road (2015)", area: "Leasable Area: 2 Lac Sq. Ft" },
-  { src: img2, title: "Myntra Warehouse on Soukya Road (2015)", area: "Leasable Area: 2 Lac Sq. Ft" },
-  { src: img3, title: "Myntra Warehouse on Soukya Road (2015)", area: "Leasable Area: 2 Lac Sq. Ft" },
+  { src: img2, title: "#6 Primrose, Next to MG Road (2014)", area: "Leasable Area: 3,000 Sq. Ft" },
+  { src: img3, title: "Udaan Warehouse on Soukya Road (2009)", area: "Leasable Area: 5 Lac Sq. Ft" },
   { src: img4, title: "Myntra Warehouse on Soukya Road (2015)", area: "Leasable Area: 2 Lac Sq. Ft" },
-  { src: img5, title: "Myntra Warehouse on Soukya Road (2015)", area: "Leasable Area: 2 Lac Sq. Ft" },
-  { src: img6, title: "Myntra Warehouse on Soukya Road (2015)", area: "Leasable Area: 2 Lac Sq. Ft" },
+  { src: img5, title: "#6 Primrose, Next to MG Road (2014)", area: "Leasable Area: 3,000 Sq. Ft" },
+  { src: img6, title: "Myntra Warehouse on Soukya Road (2015)", area: "Leasable Area: 5 Lac Sq. Ft" },
   { src: img7, title: "Myntra Warehouse on Soukya Road (2015)", area: "Leasable Area: 2 Lac Sq. Ft" },
-  { src: img8, title: "Myntra Warehouse on Soukya Road (2015)", area: "Leasable Area: 2 Lac Sq. Ft" },
+  { src: img8, title: "#6 Primrose, Next to MG Road (2014)", area: "Leasable Area: 3,000 Sq. Ft" },
 ];
 
 const ProjectCarousel = () => {
@@ -62,11 +66,18 @@ const ProjectCarousel = () => {
       </div>
       <div className="carousel-footer">
         <button className="view-all-btn">View All Property</button>
-        <div className="carousel-controls">
-          <button onClick={prevSlide} disabled={index === 0} className="carousel-button">←</button>
-          <div className="slide-indicator">{index + 1}/8</div>
-          <button onClick={nextSlide} disabled={index >= images.length - 1} className="carousel-button">→</button>
-        </div>
+      <div className="carousel-controls">
+  <button onClick={prevSlide} disabled={index === 0} className="carousel-button carousel-button1">
+    <img src={ArrowLeft} alt="Previous" className="arrow-icon" />
+  </button>
+
+  <div className="slide">{index + 1}/8</div>
+
+  <button onClick={nextSlide} disabled={index >= images.length - 1} className="carousel-button carousel-button2">
+    <img src={ArrowRight} alt="Next" className="arrow-icon" />
+  </button>
+</div>
+
       </div>
     </div>
   );

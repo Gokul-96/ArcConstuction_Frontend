@@ -4,10 +4,10 @@ import './Services.css';
 const Services = () => {
   return (
     <div className='service-container'>
-      <h1 className='service-title'>Our Services</h1>
+      <h1 className='service-t'>Our Services</h1>
 
-      <p className='service-description'>
-        Arc Constructions offers a helping hand to businesses and individuals alike, turning visions into thriving spaces.
+      <p className='service-d'>
+        <b>Arc Constructions offers a helping hand to businesses and individuals alike, turning visions into thriving spaces.</b>
       </p>
 
     <div className="service-links-row">

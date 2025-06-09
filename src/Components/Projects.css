@@ -86,23 +86,52 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .carousel-img {
-  width: 100%;
-  height: 340px;
-  object-fit: cover;
-  border-bottom-right-radius: 40px;
+width: 700px;
+height: 340px;
+top: 2414px;
+left: 901px;
+border-width: 1px;
+border-bottom-right-radius: 40px;
+border: 1px solid rgba(226, 226, 226, 1)
+
 }
 
 .project-info {
-  padding: 8px 12px;
-  background: rgba(255, 255, 255, 1);
+ display: flex;
+  align-items: center; 
+  gap: 10px;
 }
 
-.project-title,
-.project-area {
-  font-family: "Manrope", sans-serif;
-  font-size: 18px;
-  line-height: 40px;
+.project-title
+ {
+  width: 309;
+height: 40;
+top: 2778px;
+left: 901px;
+
+font-family: Manrope;
+font-weight: 400;
+font-size: 18px;
+line-height: 40px;
+letter-spacing: 0%;
+
   color: rgba(51, 51, 51, 1);
+}
+
+.project-area{
+  width: 223;
+height: 40;
+top: 2778px;
+left: 1255px;
+font-family: Manrope;
+font-weight: 400;
+font-size: 18px;
+line-height: 40px;
+letter-spacing: 0%;
+color: rgba(51, 51, 51, 1);
+
+
+
 }
 
 .carousel-footer {
@@ -113,7 +142,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .view-all-btn {
-  font-family: "Manrope", sans-serif;
+  font-family: "Manrope";
   font-size: 16px;
   padding: 10px 20px;
   border: 1px solid rgba(0, 47, 112, 1);
@@ -129,28 +158,57 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   gap: 16px;
 }
 
-.carousel-button {
-  font-size: 24px;
-  padding: 8px 16px;
-  background: rgba(0, 47, 112, 1);
-  color: white;
-  border: none;
-  cursor: pointer;
-  border-radius: 8px;
+.carousel-button1{
+width: 70px;
+height: 70px;
+top: 2858px;
+left: 1621px;
+border-width: 1px;
+  border-radius: 50%;
+
+border: 1px solid rgba(51, 51, 51, 1)
+
+
 }
+
+.carousel-button2{
+width: 70px;
+height: 70px;
+top: 2858px;
+left: 1771px;
+border-width: 1px;
+  border-radius: 50%;
+background: rgba(255, 255, 255, 1);
+border: 1px solid rgba(51, 51, 51, 1)
+
+}
+
+.arrow-icon {
+  width: 20px;
+  height: 24px;
+  transform: rotate(0deg); }
 
 .carousel-button:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.slide-indicator {
-  font-family: "Manrope", sans-serif;
-  font-size: 16px;
-  color: #333;
-  background: #fff;
-  padding: 4px 12px;
-  border-radius: 8px;
-  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
-  display: inline-block;
+.slide {
+ width: 34px;
+height: 29px;
+top: 2878px;
+left: 1713px;
+
+font-family: Inter;
+font-weight: 300;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: capitalize;
+
+color: rgba(51, 51, 51, 1);
+
+
+
 }
