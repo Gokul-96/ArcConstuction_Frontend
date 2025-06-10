@@ -5,6 +5,7 @@ import HomeComponent from './Components/HomeComponent'
 import Navbar from './Components/Navbar'
 import Projects from './Components/Projects'
 import Services from './Components/Services'
+import Values from './Components/Values'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
          <AboutUs/>
          <Projects/>
          <Services/>
+         <Values/>
       </div>
     </>
   )
