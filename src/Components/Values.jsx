@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import committed from '../assets/commited.png'
 import inspired from '../assets/inspired.png'
 import people from '../assets/people.png'
@@ -14,6 +14,27 @@ const allValues=[
 
 ]
 const Values = () => {
+
+  const [formData, setFormData] = useState({
+  name: '',
+  email: '',
+  phone: '',
+  message: ''
+});
+
+const handleChange = (e) => {
+  setFormData({
+    ...formData,
+    [e.target.name]: e.target.value
+  });
+};
+
+const handleSubmit = (e) => {
+  e.preventDefault();
+  alert('Thank you for contacting us!');
+  setFormData({ name: '', email: '', phone: '', message: '' });
+};
+
   return (
     <div className='Core-Container'>
         <h1 className='core-h'>Core Values</h1>
@@ -29,15 +50,41 @@ const Values = () => {
           <div>
             
 
+<form className="contact-form" onSubmit={handleSubmit}>
+  <input
+    type="text"
+    name="name"
+    placeholder="Name"
+    value={formData.name}
+    onChange={handleChange}
+    required
+  />
+  <input
+    type="email"
+    name="email"
+    placeholder="Email"
+    value={formData.email}
+    onChange={handleChange}
+    required
+  />
+  <input
+    type="tel"
+    name="phone"
+    placeholder="Phone"
+    value={formData.phone}
+    onChange={handleChange}
+    required
+  />
+  <textarea
+    name="message"
+    placeholder="Message"
+    value={formData.message}
+    onChange={handleChange}
+    required
+  ></textarea>
+  <button type="submit">Submit</button>
+</form>
 
-        {/* Left: Form */}
-        <div className="contact-form">
-          <input type="text" placeholder="Name" />
-          <input type="email" placeholder="Email" />
-          <input type="tel" placeholder="Phone" />
-          <textarea placeholder="Message"></textarea>
-          <button type="submit">Submit</button>
-        </div>
 
             
           </div>
